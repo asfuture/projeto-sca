@@ -6,7 +6,7 @@
 	$Senha = $_POST['login_senha_aluno'];
 	$password = md5($Senha);
 	//Verificação do login do aluno(a)
-	if (($Matricula == '')/*||($Senha == '')*/ ) {
+	if (($Matricula == '')||($Senha == '') ) {
 		header('location:login.php');
 	}else{
 	$buscar = "SELECT * FROM tb_alunos WHERE id ='$Matricula'";

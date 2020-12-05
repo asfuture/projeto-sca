@@ -22,7 +22,7 @@ session_start();
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
 </head>
 <body>
-	<a href="http://localhost/projeto-luby/login.php"><button class="btn_sair">Sair</button></a> 
+	<a href="http://localhost/projeto-sca/login.php"><button class="btn_sair">Sair</button></a> 
 	<section class="section">
 		<h1>Cadastro do Aluno</h1>
 		<div class="formulario-editar-produto">

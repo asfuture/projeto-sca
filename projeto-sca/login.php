@@ -38,8 +38,8 @@
         </button>
       </div>
       <form class="modal-body" method="POST" action="login_professor.php" >
-        <label>Email:</label><input type="text" name="login_email_professor">
-        <label>Senha</label><input type="password" name="login_senha_professor">
+        <label>Email:</label><input type="text" name="login_email_professor" required>
+        <label>Senha</label><input type="password" name="login_senha_professor" required>
         <a href="#" id="" data-toggle="modal" data-target="#recupera_senha_professor"><label>Esqueci a senha</label></a><br><br>
         <input type="submit" name="" value="Enter">
       </form>
@@ -83,7 +83,7 @@
         <p>Crie uma nova senha com 6 digitos.</p>
         <label>Digite a nova senha</label> <input type="password" name="rec_nova_senha_professor"maxlength="6" size="10" required ><br><br>
         <label>Repita a nova senha</label> <input type="password" name="rec_repeti_senha_professor"maxlength="6" size="10" required ><br><br>
-        <input type="submit" name="" value="Enter">
+        <input type="submit" name="" value=" Salva ">
       </form>
 
     </div>
@@ -99,12 +99,12 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form class="modal-body" method="POST" action="" >
-        <label>Digite a sua matricula:</label> <input type="text" name="" size="10" maxlength="10"><br>
+      <form class="modal-body" method="POST" action="recupera_senha_aluno.php" >
+        <label>Digite a sua matricula:</label> <input type="text" name="num_matricula" size="10" maxlength="10" required><br>
         <p>Crie uma nova senha com 6 digitos.</p>
-        <label>Digite a nova senha</label> <input type="password" name=""maxlength="6" size="10"><br><br>
-        <label>Repita a nova senha</label> <input type="password" name="" maxlength="6" size="10"><br><br>
-        <input type="submit" name="" value="Enter">
+        <label>Digite a nova senha</label> <input type="password" name="rec_senha_aluno"maxlength="6" size="10" required><br><br>
+        <label>Repita a nova senha</label> <input type="password" name="rec_nova_senha_aluno"maxlength="6" size="10" required><br><br>
+        <input type="submit" name="" value=" Salva ">
       </form>
     </div>
   </div>
