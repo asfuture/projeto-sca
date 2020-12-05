@@ -5,6 +5,7 @@
 	$Email = $_POST['login_email_professor'];
 	$Senha = $_POST['login_senha_professor'];
 	$password = md5($Senha);
+	
 	//Verificação do login do professor
 	if (($Email == '')||($Senha == '') ) {
 		header('location:login.php');
@@ -14,10 +15,9 @@
 	while ($dados = mysqli_fetch_array($resultado) ) {
 			$matricula=$dados['id'];
 			$email_professor=$dados['email'];
-			$senha_professor=$dados['senha'];
-			$senha_professor_bd = md5($senha_professor);
+			$senha_professor=$dados['senha'];	
 	}
-	if ($password === $senha_professor_bd) {
+	if ($password === $senha_professor) {
 		echo "<script> alert('Login Realizado com sucesso')</script>";
 		$_SESSION['usuario_autenticado'] = 'SIM';
 		$_SESSION['id'] = $matricula;

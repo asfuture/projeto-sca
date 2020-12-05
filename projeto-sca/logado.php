@@ -14,14 +14,14 @@ session_start();
 
 </head>
 <body>
-	<a href="http://localhost/projeto-luby/login.php"><button class="btn_sair">Sair</button></a> 
+	<a href="http://localhost/projeto-sca/login.php"><button class="btn_sair">Sair</button></a> 
 	<section class="section-index">
 		<h1 class="titulo-cadastro-produto">SISTEMA DE CADASTROS <em>ASF</em>UTURE </h1>
 		<div class="div-index">
 				<!--Botão cadastrar-->
-				<a class="a-cadastra" href="http://localhost/projeto-luby/formulario.php"><button class="btn-cadastra" >Cadastrar</button></a> 
+				<a class="a-cadastra" href="http://localhost/projeto-sca/formulario.php"><button class="btn-cadastra" >Cadastrar</button></a> 
 				<!--Botão Consulta-->
-				 <a class="a-consulta" href="http://localhost/projeto-luby/lista.php"><button class="btn-consulta">Consulta</button></a>
+				 <a class="a-consulta" href="http://localhost/projeto-sca/lista.php"><button class="btn-consulta">Consulta</button></a>
 		</div>
 	</section>
 </body>

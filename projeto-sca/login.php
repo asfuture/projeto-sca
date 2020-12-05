@@ -77,13 +77,15 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form class="modal-body" method="POST" action="" >
-        <label>E-mail:</label> <input type="text" name="" size="40"><br>
+
+      <form class="modal-body" method="POST" action="recupera_senha.php" >
+        <label>E-mail:</label> <input type="text" name="rec_senha_email_professor" required size="40"><br>
         <p>Crie uma nova senha com 6 digitos.</p>
-        <label>Digite a nova senha</label> <input type="password" name=""maxlength="6" size="10"><br><br>
-        <label>Repita a nova senha</label> <input type="password" name=""maxlength="6" size="10"><br><br>
+        <label>Digite a nova senha</label> <input type="password" name="rec_nova_senha_professor"maxlength="6" size="10" required ><br><br>
+        <label>Repita a nova senha</label> <input type="password" name="rec_repeti_senha_professor"maxlength="6" size="10" required ><br><br>
         <input type="submit" name="" value="Enter">
       </form>
+
     </div>
   </div>
 </div>

@@ -17,7 +17,7 @@ session_start();
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
-		<a href="http://localhost/projeto-luby/login.php"><button class="btn_sair">Sair</button></a> 
+		<a href="http://localhost/projeto-sca/login.php"><button class="btn_sair">Sair</button></a> 
 		<section class="section">
 		<h1 class="titulo-lista-produto">LISTA DE ALUNOS CADASTRADOS</h1></br>
 		<!--Inicio da Tabela do listar--> 
@@ -31,7 +31,7 @@ session_start();
 				<td class="titulo-tabela">Nivél</td>
 				<td class="titulo-tabela">Escola</td>
 				<td class="titulo-tabela">Sexo</td>
-				<td class="btn-volta-lista"><a href=http://localhost/projeto-luby/logado.php>Voltar</a></td>
+				<td class="btn-volta-lista"><a href=http://localhost/projeto-sca/logado.php>Voltar</a></td>
 			</tr>
 			<!--While para buscar todos dados do BD e exibir da tela--> 
 			<?php while ($dado = mysqli_fetch_array($lista)) {?>

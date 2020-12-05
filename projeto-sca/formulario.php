@@ -13,7 +13,7 @@ session_start();
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
 </head>
 <body>
-	<a href="http://localhost/projeto-luby/login.php"><button class="btn_sair">Sair</button></a> 
+	<a href="http://localhost/projeto-sca/login.php"><button class="btn_sair">Sair</button></a> 
 	<section class="section">
 		<h1>CADASTRO DE ALUNOS</h1>
 			
@@ -56,7 +56,7 @@ session_start();
 			</form><br>
 
 				<!--Botão Voltar-->
-			<a href="http://localhost/projeto-luby/logado.php"><button class="btn-volta-cadastro">Voltar</button></a> 
+			<a href="http://localhost/projeto-sca/logado.php"><button class="btn-volta-cadastro">Voltar</button></a> 
 		</div>
 	</section>
 </body>
