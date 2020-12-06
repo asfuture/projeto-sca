@@ -9,9 +9,10 @@ include('conecta.php');
 	$Nivel = $_POST['cNivel'];
 	$Escola = $_POST['cEscola'];
 	$Sexo = $_POST['cSexo'];
-	
+	$senha = rand(100000,200000);//gerador de senha
+
 	//Enviando dados do formulário cadastra para o BD
-		$incluir = "INSERT INTO tb_alunos (nome,sobrenome,nascimento,serie,nivel,escola,sexo) VALUES ('$Nome','$SobreNome','$Nascimento','$Serie','$Nivel','$Escola','$Sexo')";
+		$incluir = "INSERT INTO tb_alunos (nome,sobrenome,nascimento,serie,nivel,escola,sexo,senha) VALUES ('$Nome','$SobreNome','$Nascimento','$Serie','$Nivel','$Escola','$Sexo','$senha')";
 
 		//Verificação do INSERT INTO no BD
 		if ($con -> query($incluir) === TRUE) {
