@@ -57,7 +57,7 @@ session_start();
 				<label id="sexo" class="editar-sexo">Sexo :&nbsp;<?php echo $row_dados['sexo']; ?></label><br><br>
 				<input class="btn-salva-cadastro" type="submit" value="Salva">
 			</form>
-			<a href="http://localhost/projeto-luby/login.php"><button class="btn-volta-editar">Voltar</button></a>
+			<a href="http://localhost/projeto-sca/login.php"><button class="btn-volta-editar">Voltar</button></a>
 		</div>
 	</section>
 </body>

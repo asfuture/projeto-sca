@@ -20,7 +20,7 @@ session_start();
 	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
 </head>
 <body>
-	<a href="http://localhost/projeto-luby/login.php"><button class="btn_sair">Sair</button></a> 
+	<a href="http://localhost/projeto-sca/login.php"><button class="btn_sair">Sair</button></a> 
 	<section class="section">
 		<h1>EDITAR  CADASTRO</h1>
 
@@ -62,7 +62,7 @@ session_start();
 				<label>Outros</label>&nbsp;&nbsp;<input type="radio" name="Sexo" id="Outro" value="Outros" onclick="outros()" ><br><br><br><br>
 				<input class="btn-salva-editar" type="submit" value="Alterar"> 
 			</form>
-			<a href="http://localhost/projeto-luby/lista.php"><button class="btn-volta-editar">Voltar</button></a>
+			<a href="http://localhost/projeto-sca/lista.php"><button class="btn-volta-editar">Voltar</button></a>
 		</div>
 	</section>
 	<script>
